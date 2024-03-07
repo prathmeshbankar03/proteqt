@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+  margin: 0px;
+  background-color: #64ecbf;
+  font-family: 'ubuntu';
+  height: 100vh;
+}
+
+.App{
+  margin: 0 auto;
+  max-width: 928px;
+
+}
+
+.nav{
+  margin: 0px;
+  display: flex;
+  padding: 00px;
+  flex-direction: row;
+  width: auto;
+  height: 150px;
+  background-color: black;
+}
+.logo{
+  padding: 0 15px;
+  margin-left: 10px;
+}
+
+section{
+  background-color: grey;
+  height: 100%;
+  min-height: 100vh;
+  
+}
+
+h1{
+  font-weight: bolder;
+  
+}
+
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+form{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-bottom: 100px; */
+}
+
+.inputForm{
+  /* margin-top: 17px; */
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+input{
+  padding: 6px 12px;
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 4px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+:focus{
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(52, 50, 50, 0.25);
+}
+
+.submitBtn {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 18px;
+  padding-right: 18px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.submitBtn:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.submitBtn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.submitBtn:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.passwordsList{
+  display: flex;
+  justify-content: center;
+
+}
+
+table, td, th {
+  max-width: 300px;
+  min-width: 100px;
+  margin: 20px;
+  border: 1px solid;
+  font-size: x-large;
+  padding: 10px;
+  word-wrap:break-word;
+}
+
+.table-cell{
+  text-align: center;
+}
+.table-cell:hover{
+  cursor: pointer;
+}
+
+.registerLoginPage{
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reglogbox{
+  gap: 10px;
+}
